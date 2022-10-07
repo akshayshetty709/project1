@@ -1,4 +1,4 @@
-#shell script
+#akshay
 #!/bin/bash
 sarra="22 33 44 55 66"
 sum=0
