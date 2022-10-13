@@ -1,12 +1,5 @@
-#akshjhjkhkjhlk
 #!/bin/bash
-#akshay
-#set -x
-sarra="22 33 44 55 66"
-sum=0
-for i in $sarra
-do
-	        echo $i
-		        sum=`expr $sum + $i`
-		done
-		echo "The sum of elements of array is $sum"
+perc=`df -h . | awk -F " " 'NR==2{print $(NF-1)}' | sed 's/%/ /g'`
+if [ $perc -ge 30 ]; then
+echo "memory reached thershould value 30%" | mail -s "Disk usage" akshayshetty709@gmail.com
+fi
