@@ -1,7 +1,5 @@
 #!/bin/bash
-sarra="22 33 44 55 66"hi hello
-#nnnnnnsarra="22 33 44 55 66"
-#hi
+sarra="22 33 44 55 66"
 sum=0
 for i in $sarra
 do
