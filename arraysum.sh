@@ -1,5 +1,5 @@
 #!/bin/bash
-sarra="22 33 44 55 66"
+array="22 33 44 55 66"
 sum=0
 for i in $sarra
 do
